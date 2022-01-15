@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.navigation{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding:40px;
+    justify-content: space-around;
+
+}
+.nav-left ul li{
+    list-style: none;
+    margin-left: 30px;
+    
+}
+.nav-left ul li a{
+    text-decoration: none;
+    font-weight: 800;
+    color: black;
+}
+.cart{
+    margin-left: 10px;
+}
+.nav-left ul{
+    display: flex;
+}
+.start{
+    display: flex;
+    justify-content: space-evenly;
+}
+.start-journey{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    padding: 40px;
+}
+.journey-right h1{
+    font-size: 40px;
+}
+.journey-right p{
+    font-size: 18px;
+}
+.journey-btn{
+    border: none;
+    font-size: 17px;
+    padding: 12px 20px;
+    background-color:rgb(224, 75, 21) ;
+    border-radius: 30px;
+}
+.journey-left img{
+    width: 70%;
+    margin-left: 50px;
+    background-image: url(./images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.company-logo{
+    margin:15px 5%;
+    width: 730px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+}
+.company-logo a{
+    margin-right:10px;
+}
+.collection-header{
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+.popular-collection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-column-gap:30px;
+    grid-row-gap:40px;
+   
+}
+.collection-box{
+    width: 200px;
+    border:4px white solid;
+    box-shadow: 3px 3px 10px 5px gray;
+}
+.popular-collection .collection-box img{
+    width: 200px;
+}
+.collec-section{
+  margin: 50px 80px;
+}
+.filled{
+    color:orange;
+}
+.collec-section p a{
+    text-decoration: none;
+    font-size: 20px;
+    color: red;
+    text-align: center;
+}
+.see-more{
+    text-align: right;
+    padding: 20px;
+    font-weight: 600;
+}
+
+.content-creator{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 100px;
+}
+.content-creator h1{
+    font-size: 2em;
+    margin: 10px;
+    margin-top: 0px;
+}
+.content-creator p{
+    font-size: 18px;
+    margin: 10px;
+}
+.content-creator button{
+    border: none;
+    font-size: 17px;
+    padding: 12px 20px;
+    background-color:rgb(224, 75, 21) ;
+    border-radius: 30px;
+    margin: 10px;
+}
+.content-creator img{
+    width: 200px;
+    height: 180px;
+    margin-left: 45px;
+}
+footer{
+    background-color: black;
+    color:white;
+    width:100%;
+    text-align: center;
+    padding: 30px;
+}
+@media screen and (max-width: 688px) {
+    .popular-collection{
+        display: grid;
+        grid-template-columns: 1fr ;
+        grid-row-gap:40px;
+    }
+    .see-more{
+        text-align:center;
+    }
+    .content-creator{
+        display:grid;
+        grid-template-columns:1fr;
+        margin: 20px 50px;
+    }
+    .start-journey{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 50%;
+        padding: 40px;
+    }
+    
+    .journey-right h1{
+        
+        width: 50%;
+        margin-left: 50px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .journey-right p{
+        font-size: 18px;
+        margin-left: 50px;
+    }
+    .journey-btn{
+        border: none;
+        font-size: 17px;
+        padding: 12px 20px;
+        background-color:rgb(224, 75, 21) ;
+        border-radius: 30px;
+        margin-left: 50px;
+    }
+    .journey-left img{
+        width: 50%;
+        margin-left: 40px;
+        background-image: url(./images/Circle\ design.svg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+    .start{
+        display: flex;
+        justify-content: center;
+    }
+    .nav-left ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-around;
+    }
+    .company-logo{
+        margin:15px 5%;
+        border-bottom: 1px solid gray;
+        border-top: 1px solid gray;
+    }
+
+
+   
+  }
