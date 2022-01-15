@@ -175,19 +175,7 @@ footer{
         margin-left: 50px;
     }
     .journey-btn{
-        border: none;
-        font-size: 17px;
-        padding: 12px 20px;
-        background-color:rgb(224, 75, 21) ;
-        border-radius: 30px;
         margin-left: 50px;
-    }
-    .journey-left img{
-        width: 50%;
-        margin-left: 40px;
-        background-image: url(./images/Circle\ design.svg);
-        background-repeat: no-repeat;
-        background-size: 100%;
     }
     .start{
         display: flex;
@@ -199,11 +187,6 @@ footer{
         justify-content: space-around;
     }
     .company-logo{
-        margin:15px 5%;
-        border-bottom: 1px solid gray;
-        border-top: 1px solid gray;
+        display: none;
     }
-
-
-   
   }
