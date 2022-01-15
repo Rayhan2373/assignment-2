@@ -2,11 +2,14 @@
     margin: 0px;
     padding: 0px;
 }
+/*google font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&display=swap');
 main{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Poppins', sans-serif;
 }
 .navigation{
     display:grid;
@@ -48,6 +51,7 @@ main{
 }
 .journey-btn{
     border: none;
+    margin-top: 40px;
     font-size: 17px;
     padding: 12px 20px;
     background-color:rgb(224, 75, 21) ;
@@ -147,46 +151,4 @@ footer{
         grid-template-columns: 1fr ;
         grid-row-gap:40px;
     }
-    .see-more{
-        text-align:center;
-    }
-    .content-creator{
-        display:grid;
-        grid-template-columns:1fr;
-        margin: 20px 50px;
-    }
-    .start-journey{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        width: 50%;
-        padding: 40px;
-    }
-    
-    .journey-right h1{
-        
-        width: 50%;
-        margin-left: 50px;
-        font-size: 40px;
-        text-align: center;
-    }
-    .journey-right p{
-        font-size: 18px;
-        margin-left: 50px;
-    }
-    .journey-btn{
-        margin-left: 50px;
-    }
-    .start{
-        display: flex;
-        justify-content: center;
-    }
-    .nav-left ul{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        justify-content: space-around;
-    }
-    .company-logo{
-        display: none;
-    }
-  }
+}
